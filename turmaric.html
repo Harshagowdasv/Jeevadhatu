@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<style>
+
+    .image{
+        justify-self: left;
+
+    }
+    .image img{
+        width: 500px;
+        height: 300px;
+        border-radius: 15px;
+    }
+
+    .about{
+        width: 60%;
+        justify-self: center;
+    }
+
+    .about ol{
+        display: grid;
+        gap: 30px;
+    }
+
+    .medicinel-plants{
+        display: flex;
+        gap: 300px;
+    }
+
+    .parts img{
+        width: 200px;
+        height: 200px;
+    }
+
+    a button{
+        padding: 10px 15px;
+        background: rgb(118, 234, 145);
+        cursor: pointer;
+    }
+
+    a button:hover{
+        background-color: green;
+        animation: zoom;
+        transform: scale(1.1);
+        transition: transform 0.3 ease-in-out;
+    }
+
+    @media(max-width:640px){
+
+        .about ol{
+            display: grid;
+            gap: 30px;
+        }
+
+        .medicinel-plants{
+            display: grid;
+            gap: 10px;
+        }
+
+        .image img{
+            width: 350px;
+            height: 300px;
+            border-radius: 15px;
+        }
+
+    }
+
+</style>
+<body>
+
+    <a href="./plants.html"><button>Back</button></a>
+
+    <div>
+        <h1>Turmeric</h1>
+
+    </div>
+
+    <div class="medicinel-plants">
+
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEKWCpZ8D3m0NenNlpn4ZAyTCUZZ3HKcEXMA&s" alt="">
+
+
+            <div class="about">
+                <p>
+                    <h2>Uses of Turmeric 🌿</h2>
+                    <ol>
+                        <li>Anti-inflammatory – Reduces swelling and joint pain.</li>
+                        <li>Antioxidant – Protects cells from free radical damage.</li>
+                        <li>Skin Care – Treats acne, wounds, and enhances skin glow.</li>
+                        <li>Digestive Health – Promotes healthy digestion and reduces bloating.</li>
+                        <li>Brain Health – Supports memory and cognitive function.</li>
+                        <li>Immune Boosting – Enhances overall immune defense.</li>
+                    </ol>
+                
+                    <h2>Diseases Turmeric May Help With 🏥</h2>
+                    <ol>
+                        <li>Arthritis – Reduces inflammation and joint pain.</li>
+                        <li>Skin Disorders – Treats eczema, wounds, and psoriasis.</li>
+                        <li>Digestive Disorders – Relieves indigestion, bloating, and IBS symptoms.</li>
+                        <li>Heart Disease – Lowers cholesterol and prevents clot formation.</li>
+                        <li>Diabetes – Improves insulin sensitivity and blood sugar regulation.</li>
+                    </ol>
+                </p>
+                
+                
+            </div>
+            
+        </div>
+    
+        <div class="parts">
+            <h2>Parts</h2>
+            <div class="leave">
+                <h2>Turmeric </h2>
+                <img src="https://i0.wp.com/www.ayurvedakendra.in/wp-content/uploads/2023/01/Haridra-768x512-1.jpg?ssl=1" alt="">
+                <p>
+                    <h2>Ayurvedic Name: Haridra Rhizome</h2>
+                    Known for its anti-inflammatory and antioxidant properties, used for skin and wound healing.
+                </p>
+            </div>
+            
+            <div class="">
+                <h2>Turmeric Leaves</h2>
+                <img src="https://m.media-amazon.com/images/I/51+wbWRY+8L.jpg" alt="">
+                <p>
+                    <h2>Ayurvedic Name: Haridra Patra</h2>
+                    Leaves are aromatic and used in cooking as well as in herbal steam therapies.
+                </p>
+            </div>
+            
+            <div class="">
+                <h2>Turmeric Flowers</h2>
+                <img src="https://media.istockphoto.com/id/478896742/photo/photo-of-curcuma-alismatifolia-blossom-in-thailand.jpg?s=612x612&w=0&k=20&c=LIPhfyWwxyzlaU9XKKemYX0iNNs5XSNuHOnzpZ4HiZk=" alt="">
+                <p>
+                    <h2>Ayurvedic Name: Haridra Pushpa</h2>
+                    Rarely used, but sometimes included in preparations for flavor and mild medicinal value.
+                </p>
+            </div>
+            
+            
+
+        </div>
+
+    </div>
+
+    
+
+    
+</body>
+</html>
+

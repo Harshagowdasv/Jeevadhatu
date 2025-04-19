@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cunsulatation</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<style>
+
+    form{
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        width: 80%;
+        display: grid;
+        justify-self: center;
+    }
+
+    form input{
+        margin-top: 3%;
+        width: 60%;
+        padding: 10px;
+        justify-self: center;
+    }
+
+    form button{
+        width: 20%;
+        padding: 10px;
+        justify-self: center;
+        cursor: pointer;
+    }
+
+    .doctor-profile{
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        width: 60%;
+        justify-self: center;
+    }
+
+    .doctor-profile .photo{
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        align-self: center;
+        
+    }
+
+    .doctor-profile .photo h1{
+        position: relative;
+        top: 20px;
+        text-align: center;
+        font-size: 50px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 2px solid black;
+        justify-self: center;
+        align-self: center;
+
+    }
+
+    .online-cunsultaion{
+        justify-self: center;
+        box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+
+    .online-cunsultaion button{
+        padding: 10px 15px;
+        cursor: pointer;
+        justify-self: center;
+    }
+
+    .online-cunsultaion ul{
+        display: flex;
+        gap: 30px;
+        justify-self: center;
+    }
+
+    a button{
+        padding: 10px 15px;
+        background: rgb(118, 234, 145);
+        cursor: pointer;
+    }
+
+    a button:hover{
+        background-color: green;
+        animation: zoom;
+        transform: scale(1.1);
+        transition: transform 0.3 ease-in-out;
+    }
+
+    @media(max-width:640px){
+        .online-cunsultaion button{
+            padding: 10px 25px;
+            cursor: pointer;
+            justify-self: center;
+        }
+
+        form button{
+            width: 40%;
+            padding: 10px 25px;
+            justify-self: center;
+            cursor: pointer;
+        }
+
+    }
+
+
+</style>
+<body>
+    
+    <a href="./index.html"><button>BACK</button></a>
+
+
+
+    <h1>Doctor Cunsulatation</h1>
+
+    <div class="doctor-profile">
+        <div class="photo">
+            <h1>🧑‍⚕️</h1>
+        </div>
+        <h2>Ayurvedic Doctor:Ayush</h2>
+        <h2>Experience:10years</h2>
+        <p>Address:Bangalore GKVK</p>
+    </div>
+
+    <form action="">
+        <h2>📅 Appointment booking form.</h2>
+        <input type="text" placeholder="Name">
+        <br>
+        <input type="text" placeholder="E-mail">
+        <br>
+        <input type="text" placeholder="Phone Number">
+        <br>
+        <input type="text" placeholder="Date (dd/mm/year)">
+        <br>
+        <button>SUBMIT</button>
+    </form>
+
+
+    <div class="online-cunsultaion">
+        <h1>💬 Chat/Video Consultation</h1>
+        <ul>
+            <a href=""><button>Chat🗨️</button></a>
+            <a href=""><button>VideoCall📷</button></a>
+        </ul>
+    </div>
+
+</body>
+</html>

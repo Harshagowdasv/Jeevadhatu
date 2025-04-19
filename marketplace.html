@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market place</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<style>
+
+    .market{
+
+    }
+    .Ayurvedic-Medicines{
+
+
+    }
+
+    .products{
+        box-shadow: 0 0 10px rgba(0,0,0,0.4);
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 190px;
+        border-radius: 15px;
+    }
+    .products img{
+        width: 200px;
+        height: 200px;
+        justify-self: center;
+    }
+
+    .products a{
+        text-decoration: none;
+        color: black;
+        justify-self: center;
+    }
+
+    .products a:hover{
+        color: aliceblue;
+    }
+
+    .products button{
+        justify-self: center;
+        padding: 10px 15px;
+        background-color: green;
+        cursor: pointer;
+    }
+
+
+    .Ayurvedic-Medicines img{
+        width: 200px;
+        height: 200px;
+    }
+
+    a button{
+        padding: 10px 15px;
+        background: rgb(118, 234, 145);
+        cursor: pointer;
+        justify-self: center;
+        align-self: center;
+    }
+
+    a button:hover{
+        background-color: green;
+        animation: zoom;
+        transform: scale(1.1);
+        transition: transform 0.3 ease-in-out;
+    }
+
+    .search{
+        box-shadow: 0 0 10px rgba(0,0,0,0.6);
+        border-radius: ;
+        justify-self: center;
+        width: 450px;
+        padding: 10px;
+
+    }
+
+    .search input{
+        padding: 10px 60px;
+    }
+
+    .search button{
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    div{
+       
+        justify-items: center;
+        
+    }
+
+    @media(max-width:640px){
+        .products{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 10px;
+            border-radius: 15px;
+            justify-self: center;
+            width: 90%;
+            justify-items: center;
+            justify-content: center;
+            box-shadow: 0%;
+        }
+
+        .products a{
+            justify-content: center;
+            text-align: center;
+            justify-items: center;
+            align-items: center;
+        }
+
+        .pro{
+            box-shadow: 0 0 10px rgba(0,0,0,0.6);
+
+        }
+
+        .search{
+            box-shadow: 0 0 10px rgba(0,0,0,0.6);
+            border-radius: ;
+            justify-self: center;
+            width: 350px;
+            padding: 10px;
+    
+        }
+
+    }
+</style>
+<body>
+    
+    <a href="./index.html"><button>BACK</button></a>
+
+
+    <div class="search">
+        <h2>Search <input type="text"><button>🔍</button></h2>
+    </div>
+
+    <div class="market">
+
+        <div class="Ayurvedic-Medicines">
+            <h1>Ayurvedic Medicines</h1>
+            <div class="products">
+                <div class="pro">
+                    <a href=""><img src="https://m.media-amazon.com/images/I/71tH6y4K-SL._AC_UF1000,1000_QL80_.jpg" alt="">
+                        <br><h2>Chyawanprash ₹70</h2>
+                     </a><br>
+                     <button>Add To Cart</button>
+                </div>
+
+
+                <div class="pro">
+
+                    <a href=""><img src="https://m.media-amazon.com/images/I/61UKbnvR5CL._AC_UF1000,1000_QL80_.jpg" alt="">
+                        <br><h2>Tripal 60%off ₹50</h2> 
+                     </a>
+                     <br>
+                     <button>Add To Cart</button>
+
+                </div>
+
+                <div class="pro">
+                    <a href=""><img src="https://m.media-amazon.com/images/I/51wfCsdiftL._AC_UF1000,1000_QL80_.jpg" alt="">
+                        <br><h2>Ashwagandha ₹100</h2>
+                        
+                    </a>
+                    <br>
+                    <button>Add To Cart</button>
+
+                </div>
+                
+
+
+                <div class="pro">
+
+                    <a href=""><img src="https://m.media-amazon.com/images/I/51fcMRBEFkL._AC_UF1000,1000_QL80_.jpg" alt="">
+                        <br><h2>brahmi ₹100</h2>
+                     </a>
+                     <br>
+                     <button>Add To Cart</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div>
+            <h1>Ayurvedic Plants</h1>
+            <div class="products">
+              
+                <div class="pro">
+
+                    <a href=""><img src="https://t3.ftcdn.net/jpg/05/17/86/94/360_F_517869442_mtFdBRZOdPpc6ji1r4c5bAlMRS8PQcee.jpg" alt="">
+                        <br><h2>Live Tulsi plant ₹150</h2>
+                        <br>
+                       </a>
+                       <button>Add To Cart</button>
+                </div>
+              <div class="pro">
+                <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREG1ioDuPVMKAv52JeJFtURj30kCeViA4hig&s" alt="">
+                    <br><h2>Alovera Plant ₹100</h2><br>
+                    
+                  </a>
+                  <button>Add To Cart</button>
+              </div>
+              
+
+              <div class="pro">
+                <a href=""><img src="https://tropicalselfsufficiency.com/wp-content/uploads/sites/12/2020/05/Black-Turmeric.-Curcuma-caesia.-Habit-7-1024x683.jpg" alt="">
+                    <br><h2>Turmeric Plant ₹90 </h2><br>
+                    
+                  </a>
+                  <button>Add To Cart</button>
+              </div>
+
+              <div class="pro">
+
+                <a href=""><img src="https://www.bimbima.com/wp-content/uploads/2014/08/ashwagandha-plant.jpg" alt="">
+                    <br><h2>Ashwagandha Plant ₹140</h2><br>
+                    
+                  </a>
+                  <button>Add To Cart</button>
+              </div>
+
+            </div>
+        </div>
+
+        <div>
+            <h1>Ayurvedic Plants 3d Models</h1>
+            <div class="products">
+                
+                <div class="pro">
+
+                    <a href=""><img src="https://c8.alamy.com/comp/W34TC8/medicinal-plants-herbs-isolated-on-white-background-W34TC8.jpg" alt="">
+                        <br><h2>₹100</h2><br>
+                        
+                    </a>
+                    <button>Add To Cart</button>
+                </div>
+                
+                <div class="pro">
+                    <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZxJLVbqPl2PmcD2nGvV5grLcEGjKCbF2v_A&s" alt="">
+                        <br><h2>₹160</h2><br>
+                        
+                    </a>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro">
+                    <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS1fbKElaH0DM6KGTY_Akc1uVrir4-ViAoyg&s" alt="">
+                        <br><h2>₹190</h2><br>
+                       
+                    </a>
+                    <button>Add To Cart</button>
+                </div>
+                
+                
+                <div class="pro">
+                    <a href=""><img src="https://c8.alamy.com/comp/W266PC/healing-medicinal-plants-dandelion-taraxacum-officinale-whole-plant-on-white-background-W266PC.jpg" alt="">
+                        <br><h2>₹100</h2><br>
+                        
+                    </a>
+                    <button>Add To Cart</button>
+        
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <h1>3d models</h1>
+            <div class="products">
+                <div class="pro">
+
+                    <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZxJLVbqPl2PmcD2nGvV5grLcEGjKCbF2v_A&s" alt="">
+                        <br><h2>₹160</h2>
+                    </a>
+                    <br>
+                    <button>Add To Cart</button>
+                    
+                </div>
+               
+
+                <div class="pro">
+                    <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS1fbKElaH0DM6KGTY_Akc1uVrir4-ViAoyg&s" alt="">
+                        <br><h2>₹260</h2></a>
+                        <br>
+                        <button>Add To Cart</button>
+                </div>
+                
+                
+                <div class="pro">
+                    <a href=""><img src="https://c8.alamy.com/comp/W34TC8/medicinal-plants-herbs-isolated-on-white-background-W34TC8.jpg" alt="">
+                        <br><h2>₹320</h2></a>
+                        <br>
+                        <button>Add To Cart</button>
+                </div>
+                
+                
+                <div class="pro">
+                    <a href=""><img src="https://www.shutterstock.com/image-photo/tulsi-plant-twig-holy-basil-600nw-2280879145.jpg" alt="">
+                        <br><h2>₹100</h2></a>
+                        <br>
+                        <button>Add To Cart</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<style>
+
+    .image{
+        justify-self: left;
+
+    }
+    .image img{
+        width: 500px;
+        height: 300px;
+        border-radius: 15px;
+    }
+
+    .about{
+        width: 60%;
+        justify-self: center;
+    }
+
+    .about ol{
+        display: grid;
+        gap: 30px;
+    }
+
+    .medicinel-plants{
+        display: flex;
+        gap: 300px;
+    }
+
+    .parts img{
+        width: 200px;
+        height: 200px;
+    }
+
+    a button{
+        padding: 10px 15px;
+        background: rgb(118, 234, 145);
+        cursor: pointer;
+    }
+
+    a button:hover{
+        background-color: green;
+        animation: zoom;
+        transform: scale(1.1);
+        transition: transform 0.3 ease-in-out;
+    }
+
+    @media(max-width:640px){
+
+        .about ol{
+            display: grid;
+            gap: 30px;
+        }
+
+        .medicinel-plants{
+            display: grid;
+            gap: 10px;
+        }
+
+        .image img{
+            width: 350px;
+            height: 300px;
+            border-radius: 15px;
+        }
+
+    }
+
+</style>
+<body>
+
+    <a href="./plants.html"><button>Back</button></a>
+
+    <div>
+        <h1>Tulasi</h1>
+
+    </div>
+
+    <div class="medicinel-plants">
+
+        <div class="image">
+            <img src="https://www.organicindiausa.com/wp-content/uploads/how-to-grow-tulsi-4-1024x683.jpg" alt="">
+
+
+            <div class="about">
+                <p>
+                    <h2>Uses of Tulsi 🌿</h2>
+                    <ol>
+                        <li>Respiratory Health – Helps relieve asthma, cold, cough, and bronchitis.</li>
+                        <li>Immunity Booster – Strengthens immune function and fights infections.</li>
+                        <li>Stress Relief – Acts as an adaptogen to reduce stress and anxiety.</li>
+                        <li>Digestive Aid – Supports better digestion and relieves bloating and gas.</li>
+                        <li>Skin Care – Treats acne, rashes, and skin irritations due to antibacterial properties.</li>
+                        <li>Oral Care – Used in dental hygiene to prevent gum disease and bad breath.</li>
+                    </ol>
+                
+                    <h2>Diseases Tulsi May Help With 🏥</h2>
+                    <ol>
+                        <li>Respiratory Infections – Treats asthma, cold, and chronic cough.</li>
+                        <li>Fever – Reduces symptoms of fever due to its antipyretic properties.</li>
+                        <li>Skin Disorders – Helpful in treating acne, ringworm, and eczema.</li>
+                        <li>Diabetes – Aids in maintaining stable blood sugar levels.</li>
+                        <li>Stress and Anxiety – Acts as a natural anti-depressant and stress reliever.</li>
+                    </ol>
+                </p>
+                
+            </div>
+            
+        </div>
+    
+        <div class="parts">
+            <h2>Parts</h2>
+            <div class="leave">
+                <h2>Tulasi Leaves</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPH8DS-yMfsHkybVre-oVHs8ARKA3z3u3qTg&s" alt="">
+                <p>
+                    <h2>Ayurvedic Name: Tulasi Patra</h2>
+                    Used for respiratory health, immunity boosting, and balancing Kapha and Vata doshas.
+                </p>
+            </div>
+            
+            <div class="">
+                <h2>Tulsi Seeds</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR430OE-4XAYqj2T-maPm88so4JInaoNc81BQ&s" alt="">
+                <p>
+                    <h2>Ayurvedic Name: Tulasi Beej</h2>
+                    Known for soothing digestive issues and aiding urinary disorders.
+                </p>
+            </div>
+            
+            <div class="">
+                <h2>Tulsi Flowers</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8mec93AceEmWjEBE2YxGP84ZsjHmwXpI51g&s" alt="">
+                <p>
+                    <h2>Ayurvedic Name: Tulasi Pushpa</h2>
+                    Used to treat respiratory infections, cough, and colds.
+                </p>
+            </div>
+            
+            
+
+        </div>
+
+    </div>
+
+    
+
+    
+</body>
+</html>

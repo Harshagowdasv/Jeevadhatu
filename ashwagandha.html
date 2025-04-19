@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<style>
+
+    .image{
+        justify-self: left;
+
+    }
+    .image img{
+        width: 500px;
+        height: 300px;
+        border-radius: 15px;
+    }
+
+    .about{
+        width: 60%;
+        justify-self: center;
+    }
+
+    .about ol{
+        display: grid;
+        gap: 30px;
+    }
+
+    .medicinel-plants{
+        display: flex;
+        gap: 300px;
+    }
+
+    .parts img{
+        width: 200px;
+        height: 200px;
+    }
+
+    a button{
+        padding: 10px 15px;
+        background: rgb(118, 234, 145);
+        cursor: pointer;
+    }
+
+    a button:hover{
+        background-color: green;
+        animation: zoom;
+        transform: scale(1.1);
+        transition: transform 0.3 ease-in-out;
+    }
+
+    @media(max-width:640px){
+
+        .about ol{
+            display: grid;
+            gap: 30px;
+        }
+
+        .medicinel-plants{
+            display: grid;
+            gap: 10px;
+        }
+
+        .image img{
+            width: 350px;
+            height: 300px;
+            border-radius: 15px;
+        }
+
+    }
+
+
+</style>
+<body>
+
+    <a href="./plants.html"><button>Back</button></a>
+
+    <div>
+        <h1>Ashwagandha</h1>
+
+    </div>
+
+    <div class="medicinel-plants">
+
+        <div class="image">
+            <img src="https://thumbs.dreamstime.com/b/ashwagandha-plant-plant-name-ashwagandha-rajasthan-235603477.jpg" alt="">
+
+
+            <div class="about">
+                <p>
+                    <h2>Uses of Ashwagandha 🌿</h2>
+                    <ol>
+                        <li>Stress Reduction – Acts as a powerful adaptogen to lower stress and cortisol levels.</li>
+                        <li>Energy & Stamina – Boosts physical strength and combats fatigue.</li>
+                        <li>Cognitive Function – Enhances memory and brain function.</li>
+                        <li>Immune Booster – Strengthens the immune response.</li>
+                        <li>Hormonal Balance – Supports thyroid and adrenal health.</li>
+                        <li>Anti-inflammatory – Reduces pain and inflammation in joints and muscles.</li>
+                    </ol>
+                
+                    <h2>Diseases Ashwagandha May Help With 🏥</h2>
+                    <ol>
+                        <li>Stress & Anxiety – Helps manage mental stress and nervous conditions.</li>
+                        <li>Arthritis – Reduces inflammation and joint stiffness.</li>
+                        <li>Thyroid Disorders – Supports thyroid hormone balance.</li>
+                        <li>Male Fertility Issues – Enhances sperm count and motility.</li>
+                        <li>Diabetes – May help regulate blood sugar and insulin sensitivity.</li>
+                    </ol>
+                </p>
+                
+                
+            </div>
+            
+        </div>
+    
+        <div class="parts">
+            <h2>Parts</h2>
+            <div class="leave">
+                <h2>Roots</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO1l-c5gA9AngvctNJlyYKlM3PsBpw3pkI6g&s" alt="">
+                <p>
+                    <h2>Ayurvedic Name: Ashwagandha Moola</h2>
+                    The root is renowned for its adaptogenic, strength-promoting, and stress-reducing effects.
+                </p>
+            </div>
+            
+            <div class="">
+                <h2>Ashwagandha Leaves</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyUAN7DBRoXSdJt5FERhhccmVpPkoW-nGLPw&s" alt="">
+                <p>
+                    <h2>Ayurvedic Name: Ashwagandha Patra</h2>
+                    Used for fever and pain relief, also has antimicrobial properties.
+                </p>
+            </div>
+            
+            <div class="">
+                <h2>Ashwagandha Fruit</h2>
+                <img src="https://www.shutterstock.com/shutterstock/photos/2413133569/display_1500/stock-photo-ashwagandha-or-withania-somnifera-fruits-on-white-background-close-up-view-2413133569.jpg" alt="">
+                <p>
+                    <h2>Ayurvedic Name: Ashwagandha Phala</h2>
+                    Traditionally used in rejuvenation therapies and immune-boosting formulations.
+                </p>
+            </div>
+            
+            
+
+        </div>
+
+    </div>
+
+    
+
+    
+</body>
+</html>

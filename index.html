@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JeevaDhaatu</title>
+</head>
+
+<style>
+
+    body{
+        background: linear-gradient(to right,green,grey);
+    }
+
+    header{
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+        border-radius: 15px;
+        
+    }
+
+    header .logo img{
+        width: 80px;
+        height: 80px;
+        border-radius: 15px;
+    }
+
+    .social{
+        align-self: center;
+        justify-self: center;
+
+    }
+    header .social img{
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        justify-self: center;
+
+    }
+
+    header .social ul{
+        list-style: none;
+        display: flex;
+        gap: 30px;
+    }
+
+    nav{
+        margin: 10PX;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        width: 90%;
+        padding: 20px;
+        justify-self: center;
+
+    }
+
+    nav ul{
+        font-size: 20px;
+        list-style: none;
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+    }
+
+    nav ul a{
+        text-decoration: none;
+        color: black;
+    }
+
+    nav ul a:hover{
+        color: white;
+    }
+
+    @media(max-width:640px){
+
+        header{
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            display: grid;
+            justify-content: center;
+            gap: 10px;
+            border-radius: 15px;
+            
+        }
+    
+        header .logo img{
+            width: 80px;
+            height: 80px;
+            border-radius: 15px;
+            
+        }
+        header .logo{
+            justify-self: center;
+
+        }
+
+        nav{
+            margin: 10PX;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            width: 90%;
+            padding: 20px;
+            justify-self: center;
+    
+        }
+    
+        nav ul{
+            font-size: 20px;
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+            justify-self: left;
+            
+        }
+
+        nav ul a{
+            text-decoration: none;
+            color: black;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            padding: 5px;
+        }
+    
+
+        
+    }
+</style>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./images/company logo.jpg" alt="">
+        </div>
+
+        <div class="title">
+            <h1>Explore the World of Ayurveda & Medicinal Plants</h1>
+
+        </div>
+
+        <div class="social">
+            <ul>
+                <li><img src="https://store-images.s-microsoft.com/image/apps.8453.13655054093851568.4a371b72-2ce8-4bdb-9d83-be49894d3fa0.7f3687b9-847d-4f86-bb5c-c73259e2b38e?h=253" alt=""></li>
+                <li><img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aW5zdGFncmFtfGVufDB8fDB8fHww" alt=""></li>
+                <li><img src="https://yt3.googleusercontent.com/i6KNxiy3gME-BulL4WnuGkTGqHuSYF8jl1WRn0rXftcJdSYK7dHKcJ3gLAaPc-KfhmLSYPwf824=s900-c-k-c0x00ffffff-no-rj" alt=""></li>
+                <li><img src="https://avatars1.githubusercontent.com/u/9919?v=4" alt=""></li>
+            </ul>
+
+        </div>
+
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="plants.html">Learn About Medicinal Plants</a></li>
+            <li><a href="consultation.html">Doctor Consultation</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          
+    </nav>
+
+    
+    
+</body>
+</html>

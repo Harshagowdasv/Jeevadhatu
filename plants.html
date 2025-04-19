@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>plants</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<style>
+
+    .container{
+        margin-top: 5%;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .container img{
+        width: 300px;
+        height: 200px;
+
+    }
+
+    .search{
+        box-shadow: 0 0 10px rgba(0,0,0,0.6);
+        border-radius: ;
+        justify-self: center;
+        width: 450px;
+        padding: 10px;
+
+    }
+
+    .search input{
+        padding: 10px 60px;
+    }
+
+    .search button{
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    a button{
+        padding: 10px 15px;
+        background: rgb(118, 234, 145);
+        cursor: pointer;
+    }
+
+    a button:hover{
+        background-color: green;
+        animation: zoom;
+        transform: scale(1.1);
+        transition: transform 0.3 ease-in-out;
+    }
+
+    @media(max-width:640px){
+
+        .search{
+            box-shadow: 0 0 10px rgba(0,0,0,0.6);
+            border-radius: ;
+            justify-self: center;
+            width: 340px;
+            padding: 10px;
+    
+        }
+
+        .container{
+            margin-top: 5%;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(1,1fr);
+            justify-self: center;
+        }
+
+    }
+
+</style>
+<body>
+
+    <a href="./index.html"><button>BACK</button></a>
+
+    <h1 style="color: white;">Medicinel Plants</h1>
+
+    <div class="search">
+        <h2>Search <input type="text"><button>🔍</button></h2>
+    </div>
+
+    <div class="container">
+        <a href="./alovera.html"><img src="https://www.meadowsfarms.com/great-big-greenhouse-gardening-blog/wp-content/uploads/sites/2/2023/02/doug-blog-aloe-vera.jpg" alt=""></a>
+        <a href="./neem.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMi1I16nsWp8QmptqTJaAfIZLQASJqmxez7A&s" alt=""></a>
+        <a href="./tulasi.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYrVpA78pJNug3XmXY3m2TOV_lvR-H6UI_2g&s" alt=""></a>
+        <a href="./ashwagandha.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb8VrTY-yY_bzaNDyfoBdXjtkgSe53fc3dlA&s" alt=""></a>
+        <a href="./turmaric.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO4XcHyjcaGPdOSB5ApWcAVnU63_fT_d5juA&s" alt=""></a>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmOhQc2AJepfAERgWiBHSst85rXRxoG9oGdw&s" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNwm5eY36p1EwgIId0FQFBuY4mdtEovtR04Q&s" alt="">
+        <img src="https://m.media-amazon.com/images/I/51cAIlQ6NeL._AC_UF1000,1000_QL80_.jpg" alt="">
+        <img src="https://housing.com/news/wp-content/uploads/2023/12/How-to-grow-and-take-care-of-Chamomile-plants-f.jpg" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJI4E2ecNTiiHGxx1o0Z2g_IF8et5pJe8xdQ&s" alt="">
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
